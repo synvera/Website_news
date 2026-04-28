@@ -1,1 +1,134 @@
 https://v0-news-website-c20l1bq04-kapiuwww-2818s-projects.vercel.app/
+
+📌 LKS Kota Tangerang Selatan 2026 – Bidang Ekologis
+
+Industri ini kelihatan nggak Kompetensi Siswa (LKS) Kota Tangerang Selatan tahun dua ribu dua puluh enam untuk bidang lomba ekologis.
+
+Mungkin Bapak Ibu bisa mencatat dulu bila ada pertanyaan yang nanti akan kita sampaikan di akhir penjelasannya.
+
+━━━━━━━━━━━━━━━
+
+📝 Informasi Umum & Teknologi
+
+- Oke, untuk informasi umum dan teknologi, jadi ini kisi-kisinya:
+  kita akan membuat aplikasi ukurannya itu yang bisa bagus dilihat dari device HP, dari gadget yang memiliki akses dengan resolusi, lebih dioptimalkan secara eksklusif untuk layar seluler dengan lebar maksimal 480 piksel.
+
+- Nah, untuk teknologinya sendiri, peserta diwajibkan menggunakan framework JavaScript.
+  Kita bisa menggunakan React atau Vue.js.
+  Untuk membuatnya bisa juga tanpa framework dengan menggunakan fungsi.
+
+- Untuk pengembangannya sendiri, nanti akan ada komputer di masing-masing ruangan dan itu akan disediakan untuk setup dan bisa dijalankan.
+
+- Nah, ini untuk backend dan data, nanti akan menampilkan konten, jadi tidak perlu membuat database sendiri, tapi nanti kami akan memberikan akses base URL API untuk konten yang ditampilkan.
+
+- Untuk penilaian, nanti juga akan menggunakan tools seperti Google Chrome atau Firefox Developer, dan khusus juga akan menggunakan Lighthouse untuk menilai skor aksesibilitas dari aplikasi tersebut.
+
+━━━━━━━━━━━━━━━
+
+📱 Struktur / Layout Aplikasi
+
+Struktur atau layout dari aplikasi nanti akan dibagi menjadi wilayah utama:
+
+🔹 Header (Atas)
+
+- Posisinya harus tetap (fixed), tidak boleh hilang.
+- Memuat:
+  • Judul halaman
+  • Tombol navigasi kembali
+
+🔹 Main Content (Tengah)
+
+- Berada di antara header dan navigation bar.
+- Harus dapat di-scroll karena kontennya banyak.
+
+🔹 Navigation Bar (Bawah)
+
+- Posisinya tetap di bagian bawah layar.
+- Tidak ikut scroll.
+- Memuat empat tombol:
+  • Home
+  • Discover
+  • Bookmark
+  • Setting
+
+━━━━━━━━━━━━━━━
+
+🚀 Fitur Utama
+
+🔸 Halaman Beranda
+
+- Menampilkan breaking news secara horizontal dengan efek scrolling.
+- Menampilkan recommendation list untuk berita dalam kategori preferensi pengguna.
+
+🔸 Halaman Penjelajah (Discover)
+
+- Menyediakan fitur pencarian dengan sistem debounce.
+- Menyediakan filter daftar berita berdasarkan kategori dari API.
+- Menerapkan infinite scroll yang mulus untuk memuat artikel selanjutnya.
+
+🔸 Halaman Artikel (Detail)
+
+- Menampilkan atribut lengkap seperti:
+  • Nama kategori
+  • Tanggal rilis
+  • Nama penulis
+  • Jumlah kunjungan
+  • Isi berita
+
+- Serta menampilkan tiga artikel rekomendasi terkait di bagian bawah.
+
+🔸 Halaman Bookmark
+
+- Menampilkan daftar artikel yang disimpan pengguna.
+- Bisa:
+  • Menambah
+  • Menghapus
+  • Membuka artikel
+
+🔸 Halaman Setting & Offline Mode
+
+- Terdapat:
+  • Mode tema (light/dark/system)
+  • Preferensi kategori berita
+
+- Aplikasi harus bisa menangani kehilangan koneksi internet dan tetap menampilkan data secara offline.
+
+━━━━━━━━━━━━━━━
+
+📊 Penilaian
+Penilaian dibagi menjadi beberapa aspek:
+
+- UX, layout, dan aksesibilitas (±10%)
+- Responsivitas dan akurasi rekomendasi (±15%)
+- Detail artikel (±20%)
+- Setting dan offline mode (±15%)
+- Clean code (±10%)
+- Waktu pengerjaan
+
+━━━━━━━━━━━━━━━
+
+📂 Pengumpulan
+
+- File dikumpulkan dalam bentuk folder
+- Diupload ke Google Drive
+- Menggunakan format penamaan tertentu
+- Project harus bisa langsung dijalankan tanpa error
+
+━━━━━━━━━━━━━━━
+
+⚠️ Ketentuan Tambahan
+
+- Bahasa pemrograman: JavaScript
+- Boleh menggunakan framework atau tidak
+- Struktur bebas:
+  • MVC
+  • MVVM
+- API akan disediakan sebelum lomba
+- Aplikasi berjalan offline untuk development, API tetap online
+
+━━━━━━━━━━━━━━━
+
+📅 Waktu Pelaksanaan
+
+- Hari: Sabtu, 29 September
+- Mulai: Pukul 09.00
